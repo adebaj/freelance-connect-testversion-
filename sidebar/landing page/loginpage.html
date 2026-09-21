@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Login</title>
+     <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.0-web/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="./review.css"/>
+    <link rel="stylesheet" href="connect.css" />
+  </head>
+  <body>
+
+<button class="sidebar-toggle">
+  <i class="fas fa-bars"></i>
+</button> 
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <img src="./logo.svg" alt="loading..." class="logo">
+   <button class="close-btn">
+    <i class="fas fa-times"></i>
+   </button>
+  </div>
+  <!-- links -->
+      <ul class="links ">
+         <li>
+            <a href="./index.html">back to homepage</a>
+            
+          </li>
+       <li>
+            <a href="jobs.html">Available Jobs</a>
+            
+          </li>
+          <li>
+            <a href="post-job.html"> Post a Job</a>
+          </li>
+          
+            <a href="freelancers-dashboard.html">Freelancer-Dashboard</a>
+          </li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-sketch"></i>
+          </a>
+        </li>
+      </ul>
+</aside>
+
+   
+    <header>
+      <h2 class="logo">FreelancersConnect</h2>
+      <!-- nav bars -->
+      <!-- <nav class="navbar "> 
+        <ul class="links nav-links">
+         
+          <li>
+            <a href="jobs.html">Available Jobs</a>
+            
+          </li>
+          <li>
+            <a href="post-job.html"> Post a Job</a>
+          </li>
+          <li>
+            <a href="./loginpage.html">Login</a>
+          </li>
+          <li>
+            <a href="freelancers-dashboard.html">Freelancer-Dashboard</a>
+          </li>
+        </ul>
+      </nav> -->
+      <!-- end of nav bars -->
+    </header>
+    <!-- end of header section -->
+
+
+    <!-- header section -->
+    <!-- <header> -->
+      <!-- nav bars -->
+      <!-- <nav class="navbar">
+        <h2 class="logo">FreelancersConnect</h2>
+        <ul class="nav-links">
+          <li>
+            <a href="./landing.html">Back To Homepage</a>
+          </li>
+          <li>
+          
+            <a href="jobs.html">Available Jobs</a>
+          </li>
+          <li>
+            <a href="post-job.html"> Post a Job</a>
+          </li>
+        </ul>
+      </nav> -->
+      <!-- end of nav bars -->
+    <!-- </header> -->
+    <!-- end of header section -->
+    <div class="form-container">
+      <h2>Login</h2>
+      <input
+       type="email"
+        placeholder="Input Your Email Here"
+         id="email"
+         autocomplete="off"
+         readonly
+         onfocus="this.removeAttribute('readonly')" />
+      <input
+        type="password"
+        placeholder="Input Your Password Here"
+        id="password"
+        autocomplete="off"
+        readonly
+        onfocus="this.removeAttribute('readonly')"
+      />
+      <button class="btn" onclick="loginUser()">Login</button>
+      <p>Don't have an account? <a href="register.html">Register</a></p>
+    </div>
+    <script src="./script (2).js"></script>
+    <script src="./side-bar.js"></script>
+  </body>
+</html>

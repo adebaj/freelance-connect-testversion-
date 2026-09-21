@@ -1,0 +1,140 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Freelancer Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.0-web/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="./review.css"/>
+    <link rel="stylesheet" href="./connect.css"/>
+    <link rel="stylesheet" href="./dashboard.css"/>
+
+
+  </head>
+  <body>
+
+<button class="sidebar-toggle">
+  <i class="fas fa-bars"></i>
+</button> 
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <img src="./logo.svg" alt="loading..." class="logo">
+   <button class="close-btn">
+    <i class="fas fa-times"></i>
+   </button>
+  </div>
+  <!-- links -->
+      <ul class="links ">
+     
+          <li>
+            <button type="button" class="logout-btn" onclick="logoutUser()">Logout</button>
+          </li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-sketch"></i>
+          </a>
+        </li>
+      </ul>
+</aside>
+
+   
+    <header>
+      <h2 class="logo">welcome freelancer!</h2>
+      <!-- nav bars -->
+      <!-- <nav class="navbar "> 
+        <ul class="links nav-links">
+         
+          <li>
+            <a href="jobs.html">Available Jobs</a>
+            
+          </li>
+          <li>
+            <a href="post-job.html"> Post a Job</a>
+          </li>
+          <li>
+            <a href="./loginpage.html">Login</a>
+          </li>
+          <li>
+            <a href="freelancers-dashboard.html">Freelancer-Dashboard</a>
+          </li>
+        </ul>
+      </nav> -->
+      <!-- end of nav bars -->
+    </header>
+    <!-- end of header section -->
+
+
+
+
+
+    <!-- header section -->
+    <!-- <header> -->
+      <!-- nav bars -->
+      <!-- <nav class="navbar">
+        <h2 class="logo">FreelancersConnect</h2>
+        <ul class="nav-links">
+          <li>
+            <a href="./landing.html">Back To Homepage</a>
+          </li>
+        </ul>
+      </nav> -->
+      <!-- end of nav bars -->
+    <!-- </header> -->
+    <!-- end of header section -->
+
+    <!-- <div class="dashboard">
+      <div class="sidebar">
+        <h3>Freelancer</h3>
+        <ul>
+          <li><a href="./freelancers-dashboard.html">Dashboard</a></li>
+          <li><a href="#profile">My Profile</a></li>
+          <li><a href="./loginpage.html" onclick="logoutUser()">Logout</a></li>
+        </ul>
+      </div> -->
+
+      <div class="main-content">
+        <h2 id="profile">My Profile</h2>
+        <div class="profile-card">
+          <p><strong>Name:</strong> williams joseph</p>
+          <p><strong>Skills:</strong> HTML, CSS, JavaScript</p>
+          <p><strong>Rating:</strong> ⭐ 4.8</p>
+        </div>
+
+        <h2>Newly Posted Jobs</h2>
+        <div id="jobsContainer"></div>
+      </div>
+
+    <script src="./script (2).js"></script>
+    <script>
+      requireLogin()
+    </script>
+    <script src="./side-bar.js"></script>
+  </body>
+</html>

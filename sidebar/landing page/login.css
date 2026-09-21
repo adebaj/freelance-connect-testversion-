@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body {
+  background-color: rgb(10, 9, 9);
+  text-align: center;
+  padding-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  text-decoration-line: underline;
+  text-decoration-color: aqua;
+  text-decoration-thickness: 5px;
+  text-decoration: solid;
+  color: aqua;
+}
+#login {
+  margin-right: 30px;
+  border-bottom-style: solid;
+  border-bottom-width: 3.3px;
+  border-bottom-color: aqua;
+  font-size: 20px;
+  padding-bottom: 10px;
+  text-decoration: none;
+}
+#register {
+  border-bottom-style: solid;
+  border-bottom-width: 3px;
+  border-bottom-color: aqua;
+  padding-bottom: 10px;
+}
+#em {
+  margin-right: 137px;
+  margin-top: 20px;
+}
+#ps {
+  margin-right: 170px;
+  margin-top: 20px;
+}
+
+.body {
+  border: 2.3px solid aqua;
+  border-radius: 25px;
+  padding: 4rem;
+  text-transform: capitalize;
+  background-color: black;
+  color: aqua;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#bt {
+  padding: 7px 102px;
+  margin: 20px;
+  border-radius: 8px;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: aqua;
+  font-weight: bold;
+}
+.rembtn {
+  margin-right: 58px;
+  padding-top: 1.5rem;
+}
+#p {
+  display: inline;
+  font-size: 15px;
+  color: antiquewhite;
+  padding-right: 70px;
+}
+p {
+  font-size: 13px;
+  color: aqua;
+}
+/* form styling */
+#email {
+  border-radius: 5px;
+  border: 3px solid aqua;
+
+  padding: 8px 35px;
+  margin-top: 4px;
+  background-color: rgb(20, 16, 16);
+  color: beige;
+}
+#password {
+  border-radius: 5px;
+  border: 3px solid aqua;
+
+  padding: 8px 35px;
+  margin-top: 4px;
+  background-color: rgb(20, 16, 16);
+  color: beige;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.12.0-web/css/all.min.css"
+    />
+
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="./review.css"/>
+    <link rel="stylesheet" href="./connect.css"/>
+  </head>
+  <body>
+    
+<button class="sidebar-toggle">
+  <i class="fas fa-bars"></i>
+</button> 
+<aside class="sidebar">
+  <div class="sidebar-header">
+    <img src="./logo.svg" alt="loading..." class="logo">
+   <button class="close-btn">
+    <i class="fas fa-times"></i>
+   </button>
+  </div>
+  <!-- links -->
+      <ul class="links ">
+       <li>
+            <a href="jobs.html">Available Jobs</a>
+            
+          </li>
+          <li>
+            <a href="post-job.html"> Post a Job</a>
+          </li>
+          <li>
+            <a href="./loginpage.html">Login</a>
+          </li>
+          <li>
+            <a href="freelancers-dashboard.html">Freelancer-Dashboard</a>
+          </li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons">
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-behance"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com">
+            <i class="fab fa-sketch"></i>
+          </a>
+        </li>
+      </ul>
+</aside>
+
+   
+    <header>
+      <h2 class="logo">FreelancersConnect</h2>
+      <!-- nav bars -->
+      <!-- <nav class="navbar "> 
+        <ul class="links nav-links">
+         
+          <li>
+            <a href="jobs.html">Available Jobs</a>
+            
+          </li>
+          <li>
+            <a href="post-job.html"> Post a Job</a>
+          </li>
+          <li>
+            <a href="./loginpage.html">Login</a>
+          </li>
+          <li>
+            <a href="freelancers-dashboard.html">Freelancer-Dashboard</a>
+          </li>
+        </ul>
+      </nav> -->
+      <!-- end of nav bars -->
+    </header>
+    <!-- end of header section -->
+
+    <!-- hero section -->
+    <section class="hero">
+      <!-- wrapping div-1 -->
+      <div id="wrapping-div-1">
+        <h1>Connect with Top Freelancers & Employers</h1>
+        <br />
+        <p>Find work. Hire talent. Grow faster.</p>
+        <!-- hero button wapping div -->
+        <div class="hero-buttons">
+          <a href="./freelancers-dashboard.html" class="btn">Find Work</a>
+          <a href="./jobs.html" class="btn secondary">Hire Talent</a>
+          <br />
+          <br />
+          <br />
+
+          <a class="btn" href="register.html">Register</a>
+        </div>
+        <!-- end of hero button wrapping div -->
+      </div>
+      <!-- end of wrapping div-1 -->
+    </section>
+    <!-- end of section -->
+    <section class="features">
+      <div class="feature">
+        <h3>Create Profile</h3>
+        <div class="underline"></div>
+        <br>
+        <p>Show your skills and experience.</p>
+
+      </div>
+      <div class="feature">
+        <h3>Apply for Jobs</h3>
+        <div class="underline"></div>
+        <br>
+        <p>Browse and apply easily.</p>
+
+      </div>
+      <div class="feature">
+        <h3>Get Paid</h3>
+        <div class="underline"></div>
+        <br>
+        <p>Complete jobs and earn.</p>
+
+      </div>
+    </section>
+
+<!-- reviews section -->
+     <main>
+<section class="container">
+  <!-- ttitle -->
+   <div class="title">
+    <h2>our reviews</h2>
+   </div>
+   <div class="underline"></div>
+   <!-- reviews -->
+<article class="review">
+  <div class="img-container">
+    <img src="./pic/img1.jpg" id="person-img" alt="reviewer photo">
+  </div>
+  <h4 id="author">sara jones</h4>
+  <p id="job">ux developer</p>
+  <p id="info">
+    Lorem ipsum dolor sit amet,
+     consectetur adipisicing elit. Facilis
+      perferendis vero assumenda non commodi
+       id natus, error eaque enim numquam.
+  </p>
+  <!-- prev next btns -->
+   <div class="button-container">
+    <button class="prev-btn">
+    <i class="fas fa-chevron-left">
+
+    </i>
+    </button>
+    <button class="next-btn">
+    <i class="fas fa-chevron-right"></i>
+    </button>
+   </div>
+   <!-- random btn -->
+    <button class="random-btn">randomly view</button>
+</article>
+
+</section>
+
+    </main>
+    
+    <!-- end of review section -->
+    <section class="jobs">
+      <h2>Featured Jobs</h2>
+      <div class="job-card">
+        <h3>Web Designer Needed</h3>
+        <p>Budget: $200</p>
+        <p>Deadline: 7 days</p>
+        <button class="view-details">View Details</button>
+      </div>
+      
+      <div class="job-card">
+        <h3>Logo Design</h3>
+        <p>Budget: $50</p>
+        <p>Deadline: 3 days</p>
+        <button class="view-details">View Details</button>
+      </div>
+    </section>
+    
+    <footer>
+      <p>© 2026 FreelanceConnect</p>
+    </footer>
+    
+    
+    <!-- javascript -->
+    <script src="side-bar.js"></script>
+  </body>
+</html>
+
+<!-- javascript for the review page -->
+<script src="./review.js"></script>

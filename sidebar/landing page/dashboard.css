@@ -1,0 +1,44 @@
+.dashboard {
+  display: flex;
+}
+
+/* NOTE: the old .sidebar / .sidebar li / .sidebar li a rules that used
+   to live here have been removed. They targeted the previous
+   always-visible dashboard sidebar (width: 220px, dark navy background),
+   and reusing the same ".sidebar" class name for the new off-canvas menu
+   in styles.css caused this file to silently override its width,
+   background and link colors, since it loads after styles.css. The new
+   sidebar's look now comes entirely from styles.css. */
+
+.logout-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 1rem 1.5rem;
+  color: var(--clr-grey-5);
+  background: transparent;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.logout-btn:hover {
+  background: var(--clr-primary-8);
+  color: var(--clr-primary-5);
+  padding-left: 1.75rem;
+}
+
+.main-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.profile-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
