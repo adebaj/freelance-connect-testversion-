@@ -1,0 +1,17 @@
+# FreelancersConnect
+
+A front-end freelance marketplace demo built with HTML, CSS and vanilla JavaScript.
+
+## Features
+- Landing page with reviews carousel and featured jobs
+- Register / login (stored in the browser)
+- Post a job with an optional image; click an image to view it full size
+- Browse available jobs and a freelancer dashboard with a slide-in sidebar
+
+## Run locally
+Open the folder in VS Code and start it with the Live Server extension (or open `index.html`).
+
+## Important: how data is stored
+There is no backend. Accounts and jobs are saved in each visitor's own browser
+(`localStorage`), so nothing is shared between users or devices, and passwords are
+stored unencrypted. This is a demo - please don't use a real password.

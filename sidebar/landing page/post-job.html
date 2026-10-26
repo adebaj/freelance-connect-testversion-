@@ -129,7 +129,17 @@
       <input type="text" id="title" placeholder="Job Title" />
       <textarea id="description" placeholder="Job Description"></textarea>
       <input type="number" id="budget" placeholder="Budget" />
-      <button class="btn" onclick="postJob()">Submit Job</button>
+
+      <label for="jobImage" class="image-label">Job Image (optional)</label>
+      <input
+        type="file"
+        id="jobImage"
+        accept="image/*"
+        onchange="previewJobImage()"
+      />
+      <img id="imagePreview" class="image-preview" alt="Selected image preview" />
+
+      <button class="btn submit-button" onclick="postJob()">Submit Job</button>
     </div>
 
     <script src="./script (2).js"></script>
